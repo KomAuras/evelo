@@ -1,0 +1,19 @@
+{
+    "name": "komauras/evelo",
+    "authors": [
+        {
+            "name": "Evgeny Stefanenko",
+            "email": "mixer@clarionlife.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KomAuras\\evelo\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "laravel/socialite": "4.*",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
