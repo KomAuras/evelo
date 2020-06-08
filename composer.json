@@ -1,6 +1,6 @@
 {
     "name": "komauras/evelo",
-    "license": "GNU AGPLv3",
+    "license": "AGPL-3.0",
     "authors": [
         {
             "name": "Evgeny Stefanenko",
@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "komauras\\evelo\\": "src/"
+            "KomAuras\\Evelo\\": "src/"
         }
     },
     "require": {
