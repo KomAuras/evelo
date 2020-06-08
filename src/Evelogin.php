@@ -1,6 +1,6 @@
 <?php
 
-namespace KomAuras;
+namespace KomAuras\Evelo;
 
 class Evelogin
 {
