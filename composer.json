@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "KomAuras\\Evelo\\": "src/"
+            "KomAuras\\": "src/"
         }
     },
     "require": {
