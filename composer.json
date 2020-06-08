@@ -1,6 +1,7 @@
 {
     "name": "komauras/evelo",
-    "license": "AGPL-3.0",
+    "description": "EveOnline SSO2 Provider for Laravel Socialite",
+    "license": "MIT",
     "authors": [
         {
             "name": "Evgeny Stefanenko",
@@ -13,8 +14,15 @@
         }
     },
     "require": {
-        "php": "^5.6 || ^7.0",
+        "php": "^7.0",
         "laravel/socialite": "4.*",
         "guzzlehttp/guzzle": "^6.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KomAuras\\Evelo\\Providers\\EveloServiceProvider"
+            ]
+        }
     }
 }
