@@ -1,11 +1,14 @@
-<?
+<?php
 
 namespace KomAuras\Evelo;
 
+use KomAuras\Evelo\Tools;
+
 class Evelogin
 {
-    public function show(String $sName)
+    public function show(String $Name)
     {
-        return 'Hi ' . $sName . '! How are you doing today?';
+        $class = new Tools\SuperString();
+        return 'Привет ' . $Name . '<br>Длинна вашего имени (символов): ' . $class->len($Name);
     }
 }
